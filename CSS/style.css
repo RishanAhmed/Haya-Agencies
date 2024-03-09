@@ -34,7 +34,6 @@
 }
 .second-header{
     display: flex;
-    justify-content: space-around;
     width: 100%;
     color: white;
 }
@@ -63,26 +62,45 @@
     display: inline-flex;
 }
 
-.information ul li{
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
+.information ul li, .information ul li button{
+    width: 110px;
+    margin: 6px;
+    padding: 6px;
+    font-size: medium;
 }
-.border-light, .information ul li:hover{
+.border-light, .information ul li:hover , .information ul li button:hover{
     background: black;
     border-radius: 35px;
 }
-.sub1{
+.sub1, .sub2{
     display: none;
 }
 .information ul li:hover .sub1{
     display: block;
     position: absolute;
-    margin-top: 12px;
+    margin-top: 7px;
     margin-left: -12px;
-    background: rgb(43, 43, 43);
+    background: rgb(29, 29, 29);
+    border-radius: 5px;
 }
-.information ul li:hover .sub1 ul{
+.sub1 ul li:hover .sub2{
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -145px;
+    background: rgb(29, 29, 29);
+    border-radius: 5px;
+    font-size: small;
+}
+.information ul li:hover .sub1 ul,.sub1 ul li:hover .sub2 ul{
     display: block;
     margin: 7px;
+}
+.Company-Names{
+    margin-left: 26px;
+}
+@media (max-width:414px){
+    .second-header{
+        height: 150px;
+    }
 }

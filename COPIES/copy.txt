@@ -23,13 +23,32 @@
                     <a href="index.html"><img src="haya logo.png" width="40px" height="40px" alt="logo"><div class="b" style="width: 5%;"></div><h4>HAYA AGENCIES</h4></a>
                 </div>
                 <div class="blank-space"></div>
-                <div class="information">
-                    <div class="detials">
-                        <a href="about_us.html">About us<i class="bi bi-arrow-down-short"></i></a>
-                    </div>
-                    <div class="detials">
-                        <a href="products.html">Products<i class="bi bi-arrow-down-short"></i></a>
-                    </div>
+                <div class="information ">
+                    <ul>
+                        <li class="border-light"><a href="index.html" class="detials">Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="about_us.html" class="detials">About us<i class="bi bi-arrow-down-short"></i></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="products.html" class="detials">Products<i class="bi bi-arrow-down-short"></i></a>
+                            <div class="sub1">
+                                <ul>
+                                    <li>TATA</li>
+                                    <li>Nestle
+                                        <div class="sub2">
+                                            <ul>
+                                                <li>Chocolate</li>
+                                                <li>VENDING POWDERS</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>ITC</li>
+                                    <li>COCA-COLA</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>      
         </div>
