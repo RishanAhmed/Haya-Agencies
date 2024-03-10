@@ -34,17 +34,43 @@
                         <li><a href="products.html" class="detials">Products<i class="bi bi-arrow-down-short"></i></a>
                             <div class="sub1">
                                 <ul>
-                                    <li>TATA</li>
-                                    <li>Nestle
+                                    <li>TATA
                                         <div class="sub2">
                                             <ul>
-                                                <li>Chocolate</li>
-                                                <li>VENDING POWDERS</li>
+                                                <li>Tea Powder</li>
+                                                <li>Tea Bags</li>
+                                                <li>Coffee Powder</li>
+                                                <li>Water</li>
+                                                <li>Jam</li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li>ITC</li>
-                                    <li>COCA-COLA</li>
+                                    <li>Nestle
+                                        <div class="sub2">
+                                            <ul>
+                                                <li><a href="NESCAFE CHOCOLATES.html">Chocolate</a></li>
+                                                <li class="border-light"><a href="NESCAFE VENDING.html">Vending Powders</a></li>
+                                                <li>Coffee Machine</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>ITC
+                                        <div class="sub2">
+                                            <ul>
+                                                <li>Biscuits</li>
+                                                <li>Bingo</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>COCA-COLA
+                                        <div class="sub2">
+                                            <ul>
+                                                <li>Cans</li>
+                                                <li>Plastic Bottle</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Whole-Products</li>
                                 </ul>
                             </div>
                         </li>

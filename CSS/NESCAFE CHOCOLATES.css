@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+}
+.top-header{
+    background-color: rgba(169, 0, 112, 0.898);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-header{
+    background-color: rgb(43, 43, 43);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.second-header .logo,.second-header .blank-space{
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.second-header .logo h4,.second-header .logo a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.email {
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.information{
+    text-align: center;
+}
+.information ul{
+    list-style: none;
+    color: white;
+    display: inline-flex;
+}
+
+.information ul li, .information ul li button{
+    width: 100px;
+    margin: 6px;
+    padding: 6px;
+    font-size: medium;
+}
+.border-light, .information ul li:hover , .information ul li button:hover{
+    background: black;
+    border-radius: 35px;
+}
+.sub1, .sub2{
+    display: none;
+}
+.information ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -12px;
+    background: rgb(29, 29, 29);
+    border-radius: 5px;
+}
+.sub1 ul li:hover .sub2{
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -145px;
+    background: rgb(29, 29, 29);
+    border-radius: 5px;
+    font-size: small;
+}
+.information ul li:hover .sub1 ul,.sub1 ul li:hover .sub2 ul{
+    display: block;
+    margin: 7px;
+}
+.nescafe{
+    margin: 10px;
+}
+.nescafe-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.prs{
+    margin: 10px;
+    width: 25%;
+}
+.nescafe-body img{
+    width: 50%;
+    height: 50%;
+}
+.ROW{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 475px) {
+    .ROW{
+        width: 100PX;
+        display: block;
+    }
+    .second-header .information{
+        display: block;
+        justify-content: space-around;
+        width: 40%;
+        color: white;
+    }
+    .second-header{
+        background-color: rgb(43, 43, 43);
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+}
