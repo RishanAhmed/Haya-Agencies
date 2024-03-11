@@ -50,7 +50,7 @@
                                             <ul>
                                                 <li><a href="NESCAFE CHOCOLATES.html">Chocolate</a></li>
                                                 <li class="border-light"><a href="NESCAFE VENDING.html">Vending Powders</a></li>
-                                                <li>Coffee Machine</li>
+                                                <li><a href="NESCAFE COFFEE MACHINE.html">Coffee Machine</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -59,6 +59,7 @@
                                             <ul>
                                                 <li>Biscuits</li>
                                                 <li>Bingo</li>
+                                                <li>MAD ANGLES</li>
                                             </ul>
                                         </div>
                                     </li>
