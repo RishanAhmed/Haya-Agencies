@@ -122,3 +122,21 @@ a{
         align-items: center;
     }
 }
+@media (max-width: 575px) {
+    .ROW{
+        width: 100PX;
+        display: block;
+    }
+    .second-header .information{
+        display: block;
+        justify-content: space-around;
+        width: 40%;
+        color: white;
+    }
+    .second-header{
+        background-color: rgb(43, 43, 43);
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+}

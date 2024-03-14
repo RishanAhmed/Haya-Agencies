@@ -104,3 +104,8 @@
         height: 150px;
     }
 }
+@media (max-width: 575px){
+    .second-header{
+        height: 150px;
+    }
+}
