@@ -38,6 +38,21 @@
 .email {
     color: white;
 }
+.header a,.icon a,.information li{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.icon a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.information a:hover,.information li:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
 a{
     text-decoration: none;
     color: white;

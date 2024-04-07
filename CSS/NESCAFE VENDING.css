@@ -3,8 +3,23 @@
     padding: 0;
     font-family: sans-serif;
 }
-.header{
-    width: 100%;
+.email {
+    color: white;
+}
+.header a,.icon a,.information li{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.icon a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.information a:hover,.information li:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
 }
 .top-header{
     background-color: rgba(169, 0, 112, 0.898);
