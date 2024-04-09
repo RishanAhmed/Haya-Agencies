@@ -111,10 +111,10 @@ a{
         align-items: center;
     }
 }
-@media (max-width: 575px) {
+@media (max-width: 1248px) {
     .second-header{
         background-color: rgb(43, 43, 43);
-        height: 150px;
+        height: 175px;
         display: flex;
         align-items: center;
     }

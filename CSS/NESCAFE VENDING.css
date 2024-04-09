@@ -119,14 +119,12 @@ a{
     justify-content: space-between;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 1200px) {
     .ROW{
         width: 100PX;
         display: block;
     }
     .second-header .information{
-        display: block;
-        justify-content: space-around;
         width: 40%;
         color: white;
     }
@@ -137,14 +135,12 @@ a{
         align-items: center;
     }
 }
-@media (max-width: 575px) {
+@media (max-width: 414px) {
     .ROW{
         width: 100PX;
         display: block;
     }
     .second-header .information{
-        display: block;
-        justify-content: space-around;
         width: 40%;
         color: white;
     }

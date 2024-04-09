@@ -112,11 +112,11 @@
 }
 @media (max-width:414px){
     .second-header{
-        height: 150px;
+        height: 175px;
     }
 }
 @media (max-width: 575px){
     .second-header{
-        height: 150px;
+        height: 175px;
     }
 }
